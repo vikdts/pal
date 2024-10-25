@@ -13,7 +13,8 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link>Home</Nav.Link>
-            <Nav.Link>Link</Nav.Link>
+            <Nav.Link>Sign in</Nav.Link>
+            <Nav.Link>Sign up</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
