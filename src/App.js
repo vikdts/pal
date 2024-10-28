@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div className={styles.Main}>
        <NavBar />
        <Container>
           <h1>Home</h1>
