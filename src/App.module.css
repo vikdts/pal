@@ -9,6 +9,13 @@ a {
     transition: color ease-in-out 0.3s;
   }
   
+  .Main {
+    padding-top: 81px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
   
   a:hover {
     text-decoration: none;
