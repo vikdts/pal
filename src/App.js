@@ -5,11 +5,13 @@ import {Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
-    <div className={styles.Main}>
+    <div className={styles.App}>
        <NavBar />
-       <Container>
-          <h1>Home</h1>
-          <h1>Sign in</h1>
+       <Container className={styles.Main}>
+        <Switch>
+          <Route exact path="/" render={() => <h1>Home</h1>} />
+          <Route exact path="/" render={() => <h1>Sign in</h1>} />
+        </Switch>
        </Container>
     </div>
   );
